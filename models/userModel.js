@@ -56,10 +56,16 @@ const UserSchema = new Schema({
     depositPayment: String,
     receiveKeys: String,
     date: String,
-    printedName1: String
+    printedName1: String,
+    id_front_image: String,
+    id_back_image: String,
+    drivers_license_image: String,
+    last_image: String
 
 
-})
+},
+{ timestamps: true}
+)
 
 
 
